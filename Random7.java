@@ -1,0 +1,25 @@
+package myproject2;
+
+public class Random7 {
+	public static void main(String args[])
+	{
+		 char gender='M';
+		     
+		    switch(gender)
+		    {
+		        case 'M':
+		       
+		        	System.out.println("Male.");
+		            break;
+		        case 'F':
+		    
+		        	System.out.println("Female.");
+		            break;
+		        default:
+		        	System.out.println("Unspecified Gender.");
+		    }
+		    System.out.println("\n");
+	}
+
+
+}
